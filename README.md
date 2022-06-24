@@ -6,8 +6,8 @@ Installing Ubuntu 18 dokcer image with ros-melodic
 #### Install docker using [convenience script](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script)
     
     sudo apt-get install curl
-    curl -fsSL get.docker.com -o get-docker.sh
-    sudo sh get-docker.sh
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sudo sh ./get-docker.sh
 
 #### Steps to use docker without having to use sudo
     
